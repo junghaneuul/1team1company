@@ -1,0 +1,21 @@
+.divwise {
+    margin: 10px;
+    padding: 10px;
+    line-height: 2.5rem;
+}
+.divwise p {
+    font-size: 1.2rem;
+}
+
+.btnexe {
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
+
+.btnexe:hover {
+    background-color: bisque;
+    transition: 0.7s;
+}

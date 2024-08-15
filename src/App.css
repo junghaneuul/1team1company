@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(28, 31, 57);
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+
+header p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 5px;
+  color: gray;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section p {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.prophoto {
+  margin: 2rem;
+  border-radius: 20%;
+}
+
+.prodesc {
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+section[id="st1"] ul {
+  padding: 5px;
+}
+section[id="st1"] ul li {
+  display: flex;
+  color: rgb(196, 202, 255);
+}
+.proessay {
+  font-size: 1.2rem;
+  max-width: 360px;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  text-indent: 10px;
+  text-align: left;
+}
+
+section[id="st2"] ul {
+  position: relative;
+  width: 400px;
+  margin: 100px auth 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+section[id="st2"] ul li {
+  display: flex;
+  background-color: rgb(196, 202, 255);
+  padding: 10px 20px;
+  color: rgb(43, 49, 226);
+  margin: 5px 0;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+section[id="st2"] ul li:hover {
+  transform: scale(1.05);
+  background-color: rgb(75, 74, 76);
+}
+section[id="st2"] a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 600px;
+}
